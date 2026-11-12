@@ -1,0 +1,10 @@
+{
+  "id": "gpx_importer",
+  "title": "GPX importer",
+  "capabilities": [
+    "importer"
+  ],
+  "entry_point": "importer.py",
+  "api_version": 1,
+  "version": "0.1.0"
+}

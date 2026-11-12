@@ -1,0 +1,24 @@
+{
+  "navigator": {
+    "series_metadata": [
+      { "id": "sample_count", "title": "Sample count", "source": "sample_count", "format": "integer" },
+      { "id": "sample_rate", "title": "Sample rate", "source": "sample_rate", "format": "rate" },
+      { "id": "min", "title": "Min", "source": "min", "format": "number" },
+      { "id": "max", "title": "Max", "source": "max", "format": "number" },
+      { "id": "unit", "title": "Unit", "source": "unit", "format": "text" },
+      { "id": "warning", "title": "Warning", "source": "warning", "format": "text" }
+    ]
+  },
+  "sections": [
+    {
+      "name": "GNSS",
+      "series": [
+        { "name": "latitude_deg", "group": "GNSS", "unit": "deg", "visibility": "visible" },
+        { "name": "longitude_deg", "group": "GNSS", "unit": "deg", "visibility": "visible" },
+        { "name": "altitude_m", "group": "GNSS", "unit": "m", "visibility": "visible" },
+        { "name": "distance_3d_m", "group": "GNSS", "unit": "m", "visibility": "visible" },
+        { "name": "distance_2d_m", "group": "GNSS", "unit": "m", "visibility": "visible" }
+      ]
+    }
+  ]
+}
